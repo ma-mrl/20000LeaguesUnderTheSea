@@ -39,7 +39,7 @@ html {
     line-height: 2.2;
     font-weight: bold;
     color: #142033;
-  
+    transition: left 0.2s linear;
   }
   
   nav:hover {
@@ -68,7 +68,7 @@ html {
   nav a {
     text-decoration: none;
     color: inherit;
-  
+    transition: color 0.2s linear;
   }
   
   nav a:hover,
@@ -175,7 +175,7 @@ html {
   
   .definable .word {
     color: #639eff;
-  
+    transition: color 0.2s linear;
   }
   
   .definable .word:hover {
@@ -195,7 +195,8 @@ html {
     opacity: 0;
     font-family: "Proza Libre", sans-serif;
     font-size: 1.5rem;
-  
+    transition: top 0.4s linear,
+                opacity 0.3s linear;
   }
   
   .definable:hover .definition-container {
@@ -243,7 +244,7 @@ html {
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
-  
+    transition: opacity 0.2s ease-in;
   }
   
   .button:hover {
